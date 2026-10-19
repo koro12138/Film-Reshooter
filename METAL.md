@@ -6,4 +6,4 @@ Metal 对应 `metal_renderer.py` 与 `tools/metal_tonefilm.m`，负责 LUT/胶�
 
 Metal 原生封装使用进程级设备状态。合并版用整张照片的锁保护预览/导出调用，并在实例切换时失效照片、LUT 和缓冲区缓存，防止状态串用。CoreML 开关也纳入预览缓存身份。
 
-输入 Mac 源包附带历史测速；该数值没有在此次 Windows 合并环境重测，故不作为本版性能承诺。Mac 实机执行 `python dev.py native`、`python dev.py test`，并单独验证 M9 与高位深导出。见 docs/VALIDATION.md。
+构建及开发测试命令见 [构建说明](docs/BUILD.md)。

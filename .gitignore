@@ -26,3 +26,10 @@ htmlcov/
 *.zip
 *.exe
 *.app/
+
+# Generated validation reports
+/validation/
+/test-output/
+/macos-validation.json
+/macos-bundle-validation.json
+/research/cpu_gpu_validation.json

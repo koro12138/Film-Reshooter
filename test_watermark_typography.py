@@ -79,7 +79,7 @@ class WatermarkTypographyTests(unittest.TestCase):
                             Options(style='original',signature='旅行摄影',location_label='柳州'),variant)
                         self.assertEqual(bool(renderer.metadata_layout),bool(renderer.information.missing_summary_fields(renderer.native_information_fields)))
                         cases+=1
-        self.assertEqual(cases,376)
+        self.assertEqual(cases,358)
 
     def test_all_templates_respect_disabled_metadata(self):
         info=fixture();image=Image.new('RGB',(320,480),'#608090')

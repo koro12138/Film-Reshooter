@@ -18,7 +18,7 @@ from watermark_info import WatermarkInformation
 
 ASSETS = ROOT / 'assets/watermarks'
 GROUP_NAMES = {'leica':'徕卡', 'leica_17u':'徕卡 17 Ultra', 'leica_18pm':'徕卡 18 Pro Max',
-               'classic':'经典', 'film':'胶片', 'standard':'标准', 'tag':'标签', 'disney':'迪士尼'}
+               'classic':'经典', 'film':'胶片', 'standard':'标准', 'tag':'标签'}
 VARIANT_NAMES = {'layout':'默认', 'layout_loc_off':'不显示位置', 'bottom':'底部', 'top':'顶部',
     'center':'居中', 'bottom_middle':'下中', 'bottom_left':'左下', 'bottom_right':'右下',
     'center_left':'左中', 'center_middle':'居中', 'center_right':'右中', 'top_left':'左上',

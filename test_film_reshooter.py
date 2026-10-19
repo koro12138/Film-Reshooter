@@ -32,7 +32,7 @@ class FilmReshooterTests(unittest.TestCase):
         from app import Options
         from original_marks import LayoutRenderer,catalog
         options=Options(style='original',signature='测试签名',location_label='柳州')
-        self.assertEqual(len(catalog()),85)
+        self.assertEqual(len(catalog()),82)
         for size in ((480,720),(720,480)):
             image=Image.new('RGB',size,(40,100,140))
             for item in catalog():

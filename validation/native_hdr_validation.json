@@ -1,7 +1,0 @@
-{
-  "ok": true,
-  "compiled_on": "Windows x64 with Zig",
-  "not_a_macos_compile": true,
-  "hdr_protection_exact": true,
-  "hdr_pack_exact": true
-}

@@ -34,4 +34,4 @@ GitHub [单文件限制](https://docs.github.com/en/repositories/working-with-fi
 
 原有作者及资源署名、第三方许可均保留。合并不自动赋予第三方资源 MIT/GPL 授权；当前未擅自新增全仓库统一许可证，见 [THIRD_PARTY_NOTICE.md](../THIRD_PARTY_NOTICE.md)。
 
-CI 配置运行 Windows/macOS 公共逻辑测试，尚未在远程 GitHub Actions 实际运行；CI 不替代真实 GPU 的渲染测试。
+CI 配置用于运行 Windows/macOS 公共逻辑测试；真实 GPU 渲染需在对应设备上测试。

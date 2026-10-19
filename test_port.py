@@ -248,7 +248,7 @@ class PortTests(unittest.TestCase):
         from photos import PhotoInfo
         from app import Options
         presets = catalog()
-        self.assertEqual(len(presets),85)
+        self.assertEqual(len(presets),82)
         variants = 0
         for size in ((1080,720),(720,1080)):
             image = Image.new('RGB',size,(40,100,140))

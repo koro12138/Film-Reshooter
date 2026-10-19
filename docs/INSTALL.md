@@ -33,4 +33,4 @@
 
 源码运行需要安装 Python 依赖，macOS 重建还需 Xcode Command Line Tools，见 [README](../README.md) 和 [构建说明](BUILD.md)。
 
-用户提供的[原版 macOS 安装指南](reference/macos-install-original-v1.0.0.pdf)作为历史参考保留。模板数量、校验码及验证状态以当前文档为准。
+用户提供的[原版 macOS 安装指南](reference/macos-install-original-v1.0.0.pdf)作为历史参考保留。模板数量和校验码以对应版本说明为准。

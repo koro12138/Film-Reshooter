@@ -658,7 +658,7 @@ class MainWindow(QMainWindow):
             if item['group'] == self.mark_group.currentData():
                 self.mark_template.addItem(QIcon(str(watermark_sample(ROOT,item['key']))),item['name'],item['key'])
         default = {'leica':'1','leica_17u':'1747001','leica_18pm':'1847001','classic':'17',
-                   'film':'12','standard':'6','tag':'9','disney':'31'}
+                   'film':'12','standard':'6','tag':'9'}
         preferred = self.mark_group.currentData()+'/'+default.get(self.mark_group.currentData(),'')
         if self.mark_template.findData(preferred)>=0:
             self.mark_template.setCurrentIndex(self.mark_template.findData(preferred))

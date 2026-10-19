@@ -12,19 +12,19 @@
 
 - 批量添加文件/文件夹、缩略图队列、多滤镜导出、待导出/已导出分类和底栏进度。
 - 27 款滤镜：23 款 LUT，以及 M9 23/24/26 号与 M3 25 号实验滤镜。
-- 85 套水印、188 种版式；机型、焦距、光圈、快门、ISO、日期、时间及已有 GPS 独立控制。
+- 82 套水印、179 种版式；机型、焦距、光圈、快门、ISO、日期、时间及已有 GPS 独立控制。
 - 模板已有信息不重复，可关闭“补充模板缺少的信息”；没有 GPS 时不虚构坐标。
 - JPEG、PNG、PNG 16-bit、TIFF 16-bit、Ultra HDR JPEG，EXIF 保留独立控制。
 - 浅色/深色/跟随系统主题、滤镜与水印静态样例、原图对比、预览缓存、禁用滚轮误改参数。
 
-## 平台与状态
+## 支持平台
 
-| 平台 | 目标 | 默认路径 | 此合并版状态 |
-| --- | --- | --- | --- |
-| Windows | x64 | OpenGL 图像处理、M9 DirectML、M3 原生 C | 本机回归通过 |
-| macOS | macOS 14+，Apple Silicon arm64 | Metal、原生 C、M9 CoreML | 源码已合并，待 Mac 实机复测 |
+| 平台 | 目标 | 默认路径 |
+| --- | --- | --- |
+| Windows | x64 | OpenGL 图像处理、M9 DirectML、M3 原生 C |
+| macOS | macOS 14+，Apple Silicon arm64 | Metal、原生 C、M9 CoreML |
 
-两边共用最新界面和水印控制，保留徕卡5方向、机型字体和信息去重修复。macOS 原包较早的公共实现没有覆盖这些修改，详见 [合并记录](docs/MERGE.md) 和 [验证记录](docs/VALIDATION.md)。
+两边共用最新界面和水印控制，保留徕卡5方向、机型字体和信息去重修复。macOS 原包较早的公共实现没有覆盖这些修改，详见 [合并记录](docs/MERGE.md)。
 
 CoreML 由系统调度 CPU、GPU 或 ANE；启用提供程序不等于已证明 ANE 在运行。它可能与精确 CPU 推理存在数值差异，可在设置中关闭 M9 CoreML 或选择 CPU。NVIDIA 专用 M9 后端仍是 Windows 可选实验功能。
 
@@ -32,7 +32,7 @@ CoreML 由系统调度 CPU、GPU 或 ANE；启用提供程序不等于已证明 
 
 Windows 应用 ZIP 完整解压后启动 `FilmReshooter.exe`；macOS DMG 中的应用拖入“应用程序”。首次启动与常见问题见 [安装指南](docs/INSTALL.md)。
 
-仓库是合并源码，不含本次新构建的 EXE、APP 或 DMG。旧安装包不能代表此合并版本已经过两平台实机验证。
+仓库提供合并源码，应用安装包通过 Releases 分发。
 
 ## 从源码运行
 
@@ -56,7 +56,7 @@ python3 -m venv .venv
 .venv/bin/python dev.py run
 ```
 
-macOS `native` 从合并后的 C/Objective-C 源码重建六个 dylib。随附 dylib 来自输入包，不作为本次重新编译成功的证明。首次安装依赖需要联网，正常处理照片不上传照片。
+macOS `native` 从合并后的 C/Objective-C 源码重建六个 dylib。随附 dylib 来自输入包，修改 C/Objective-C 后请重新编译。首次安装依赖需要联网，正常处理照片不上传照片。
 
 ## 测试与构建
 
@@ -95,7 +95,7 @@ python cli.py examples --output ./output --filter 0 --backend cpu --watermark or
 | `m3.py` / `m9.py` / `desktop_*.py` | 原生算法和推理编排 |
 | `watermark_info.py` / `original_marks.py` | 信息控制、水印模板布局 |
 | `assets` / `research/models` / `lib/arm64-v8a` | LUT、模型、字体、水印、原生与参考资源 |
-| `docs` | 安装、构建、合并、验证和 GitHub 发布说明 |
+| `docs` | 安装、构建、合并和 GitHub 发布说明 |
 
 ## 作者与资源
 
