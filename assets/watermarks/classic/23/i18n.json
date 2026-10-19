@@ -1,0 +1,10 @@
+{
+  "wm_classic_23_name": {
+    "default": "CLASSIC SEVEN",
+    "zh-rCN": "经典7"
+  },
+  "wm_time_yyyy_MM_dd_HH_mm": {
+    "default": "yyyy.MM.dd HH:mm",
+    "zh-rCN": "yyyy.MM.dd HH:mm"
+  }
+}

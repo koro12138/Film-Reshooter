@@ -1,0 +1,10 @@
+{
+  "wm_classic_72_name": {
+    "default": "CLASSIC FOUR",
+    "zh-rCN": "经典4"
+  },
+  "wm_time_yyyy_MM_dd": {
+    "default": "yyyy.MM.dd",
+    "zh-rCN": "yyyy.MM.dd"
+  }
+}

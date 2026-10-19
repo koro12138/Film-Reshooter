@@ -1,0 +1,30 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm17u_wm_leica_90",
+    "id": "1747090",
+    "description": "leica_90",
+    "reminder_not_support_mode": [
+      "front",
+      "multi",
+      "raw",
+      "200m",
+      "doc",
+      "pano",
+      "mimoji"
+    ],
+    "show_in_menu": true,
+    "limitation": {},
+    "priority": 90,
+    "position": "out",
+    "exclude_cases": [
+      "front",
+      "multi",
+      "cosmetic",
+      "doc",
+      "pano",
+      "mimoji",
+      "200m"
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "source_name": "DSC_1172.jpg",
+  "source_sha256": "d07feda7432f9e916fed0d2a8a505b34e2a037e6a684944ca99009bc820ae83f",
+  "sample_size": [
+    320,
+    481
+  ],
+  "filters": [
+    {
+      "id": 0,
+      "name": "富士 CC II"
+    },
+    {
+      "id": 1,
+      "name": "珠光"
+    },
+    {
+      "id": 2,
+      "name": "Pocket"
+    },
+    {
+      "id": 3,
+      "name": "富士 NN"
+    },
+    {
+      "id": 4,
+      "name": "富士 NC"
+    },
+    {
+      "id": 5,
+      "name": "理光正片"
+    },
+    {
+      "id": 6,
+      "name": "理光负片"
+    },
+    {
+      "id": 7,
+      "name": "全能 400"
+    },
+    {
+      "id": 8,
+      "name": "哈苏蓝"
+    },
+    {
+      "id": 9,
+      "name": "柯达 5207"
+    },
+    {
+      "id": 10,
+      "name": "富士 CC"
+    },
+    {
+      "id": 11,
+      "name": "800T 冷调"
+    },
+    {
+      "id": 12,
+      "name": "富士 C200"
+    },
+    {
+      "id": 13,
+      "name": "G7X II"
+    },
+    {
+      "id": 14,
+      "name": "柯达 5219"
+    },
+    {
+      "id": 15,
+      "name": "Classic U"
+    },
+    {
+      "id": 16,
+      "name": "G12"
+    },
+    {
+      "id": 17,
+      "name": "柯达正片 64"
+    },
+    {
+      "id": 18,
+      "name": "Portra 160"
+    },
+    {
+      "id": 19,
+      "name": "哈苏蓝 II"
+    },
+    {
+      "id": 20,
+      "name": "松下 S9 暖调"
+    },
+    {
+      "id": 21,
+      "name": "理光 GR III"
+    },
+    {
+      "id": 22,
+      "name": "适马 BF"
+    },
+    {
+      "id": 23,
+      "name": "M9 完整影调 · High"
+    },
+    {
+      "id": 24,
+      "name": "M9 完整影调 · Low"
+    },
+    {
+      "id": 25,
+      "name": "M3 · 银盐黑白"
+    },
+    {
+      "id": 26,
+      "name": "M9 · 自动模型"
+    }
+  ],
+  "watermarks": 478,
+  "failures": [],
+  "watermark_revision": "FilmReshooter-v0.1.0beta"
+}

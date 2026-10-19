@@ -1,0 +1,10 @@
+{
+  "wm_classic_18_name": {
+    "default": "CLASSIC TWO",
+    "zh-rCN": "经典2"
+  },
+  "wm_time_yyyy_MM_dd": {
+    "default": "yyyy.MM.dd",
+    "zh-rCN": "yyyy.MM.dd"
+  }
+}

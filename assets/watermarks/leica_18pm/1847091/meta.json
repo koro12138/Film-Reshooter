@@ -1,0 +1,31 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm18pm_wm_leica_91",
+    "id": "1847091",
+    "description": "leica_91",
+    "reminder": "@wm18pm_wm_common_reminder_v2",
+    "reminder_not_support_mode": [
+      "front",
+      "multi",
+      "raw",
+      "doc",
+      "pano",
+      "mimoji",
+      "instant"
+    ],
+    "show_in_menu": true,
+    "limitation": {},
+    "priority": 0.55,
+    "position": "in",
+    "exclude_cases": [
+      "front",
+      "multi",
+      "cosmetic",
+      "doc",
+      "mimoji",
+      "pano",
+      "livephoto"
+    ]
+  }
+}

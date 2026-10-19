@@ -1,0 +1,27 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.m text eol=lf
+*.cu text eol=lf
+*.spec text eol=lf
+*.yml text eol=lf
+*.sh text eol=lf
+*.cmd text eol=crlf
+*.png binary
+*.jpg binary
+*.webp binary
+*.ico binary
+*.icns binary
+*.pdf binary
+*.dll binary
+*.dylib binary
+*.so binary
+*.onnx binary
+*.m9w binary
+*.npz binary
+*.bin binary
+*.elf binary
+*.dng binary

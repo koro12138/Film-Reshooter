@@ -1,0 +1,160 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_live_moment",
+    "id": "1747999",
+    "description": "local_live_moment",
+    "reminder": "@wm_common_reminder_v2",
+    "reminder_not_support_mode": [],
+    "limitation": {},
+    "priority": -1,
+    "show_in_menu": true,
+    "position": "in",
+    "exclude_cases": [],
+    "include_cases": [
+      "raw",
+      "thirdparty",
+      "mimoji",
+      "showexternal"
+    ]
+  },
+  "layout_group": [
+    {
+      "layout": [
+        {
+          "type": "Layout",
+          "id": "all_content",
+          "orientation": "overlap",
+          "layout_width": "wrap_content",
+          "layout_height": "wrap_content",
+          "gravity": "center",
+          "margin_left": "0dp",
+          "margin_top": "0dp",
+          "childViews": [
+            {
+              "type": "ImageView",
+              "id": "src_image_view",
+              "layout_gravity": "left",
+              "margin_left": "0dp",
+              "margin_top": "0dp",
+              "display_height": "0dp",
+              "path": ""
+            },
+            {
+              "type": "Layout",
+              "id": "moment_content",
+              "orientation": "vertical",
+              "layout_width": "wrap_content",
+              "layout_height": "wrap_content",
+              "gravity": "bottom|center_horizontal",
+              "margin_left": "0dp",
+              "margin_top": "-36dp",
+              "childViews": [
+                {
+                  "type": "ImageView",
+                  "id": "leica",
+                  "layout_gravity": "center",
+                  "margin_left": "0dp",
+                  "margin_top": "0dp",
+                  "display_height": "54dp",
+                  "display_width": "0dp",
+                  "path": "pathType=direct;path=leica.webp"
+                },
+                {
+                  "type": "Layout",
+                  "id": "moment_title",
+                  "orientation": "horizontal",
+                  "layout_width": "wrap_content",
+                  "layout_height": "42dp",
+                  "gravity": "top|center_horizontal",
+                  "margin_left": "0dp",
+                  "margin_top": "7dp",
+                  "childViews": [
+                    {
+                      "type": "ImageView",
+                      "id": "corner_left",
+                      "layout_gravity": "top",
+                      "margin_left": "0dp",
+                      "margin_top": "0dp",
+                      "display_height": "18dp",
+                      "display_width": "0dp",
+                      "path": "pathType=direct;path=corner_left.png"
+                    },
+                    {
+                      "type": "TextView",
+                      "id": "live_moment",
+                      "text": "Live Moment",
+                      "font_ref": "title",
+                      "layout_gravity": "top",
+                      "margin_top": "6dp",
+                      "margin_left": "9dp"
+                    },
+                    {
+                      "type": "ImageView",
+                      "id": "corner_right",
+                      "layout_gravity": "top",
+                      "margin_left": "9dp",
+                      "margin_top": "22dp",
+                      "display_height": "18dp",
+                      "display_width": "0dp",
+                      "path": "pathType=direct;path=corner_right.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "TextView",
+                  "id": "exif",
+                  "text": "@exif=@{focal}mm  f/@{aperture}  @{speed}s  ISO@{iso}",
+                  "font_ref": "exif",
+                  "layout_gravity": "center",
+                  "margin_top": "15dp",
+                  "margin_left": "0dp"
+                },
+                {
+                  "type": "ImageView",
+                  "id": "edition",
+                  "layout_gravity": "center",
+                  "margin_left": "0dp",
+                  "margin_top": "15dp",
+                  "display_height": "24dp",
+                  "display_width": "0dp",
+                  "path": "pathType=direct;path=edition.webp"
+                }
+              ]
+            }
+          ],
+          "background": "@background=transparent_white"
+        }
+      ]
+    }
+  ],
+  "wmRes": {
+    "background": [
+      {
+        "name": "transparent_white",
+        "icon": "@img=icon_background_white.webp",
+        "value": "@color=#00FFFFFF",
+        "foreground": [
+          "#FF000000",
+          "#4D000000",
+          "#BFFFFFFF",
+          "white"
+        ]
+      }
+    ],
+    "fonts": {
+      "title": {
+        "size": 28,
+        "color": "#FFFFFFFF",
+        "typeface": "default",
+        "variation": "'wght' 601"
+      },
+      "exif": {
+        "size": 20,
+        "color": "#FFFFFFFF",
+        "typeface": "default",
+        "variation": "'wght' 501"
+      }
+    }
+  }
+}

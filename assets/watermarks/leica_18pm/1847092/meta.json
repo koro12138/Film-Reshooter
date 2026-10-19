@@ -1,0 +1,31 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm18pm_wm_leica_92",
+    "id": "1847092",
+    "description": "leica_92",
+    "reminder_not_support_mode": [
+      "front",
+      "multi",
+      "raw",
+      "200m",
+      "doc",
+      "pano",
+      "mimoji",
+      "instant"
+    ],
+    "show_in_menu": true,
+    "limitation": {},
+    "priority": 0.54,
+    "position": "out",
+    "exclude_cases": [
+      "front",
+      "multi",
+      "cosmetic",
+      "doc",
+      "pano",
+      "mimoji",
+      "200m"
+    ]
+  }
+}

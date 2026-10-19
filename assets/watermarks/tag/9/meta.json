@@ -1,0 +1,31 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_tag_9_name",
+    "id": "9",
+    "description": "tag_1",
+    "reminder": "@wm_tag_reminder_v2",
+    "limitation": {
+      "ro.miui.build.region": [
+        "cn"
+      ]
+    },
+    "priority": 1,
+    "show_in_menu": true,
+    "exclude_cases": [
+      "livephoto",
+      "multi",
+      "supermoon",
+      "street",
+      "ambilight",
+      "pro",
+      "portrait",
+      "night",
+      "pixel"
+    ],
+    "include_cases": [
+      "preview"
+    ],
+    "position": "in"
+  }
+}

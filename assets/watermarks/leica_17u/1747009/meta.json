@@ -1,0 +1,27 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm17u_wm_tag_9_name",
+    "id": "1747009",
+    "description": "tag_1",
+    "reminder": "@wm17u_wm_tag_reminder_v2",
+    "limitation": {},
+    "priority": 9,
+    "show_in_menu": true,
+    "exclude_cases": [
+      "livephoto",
+      "multi",
+      "supermoon",
+      "street",
+      "ambilight",
+      "pro",
+      "portrait",
+      "night",
+      "pixel"
+    ],
+    "include_cases": [
+      "preview"
+    ],
+    "position": "in"
+  }
+}

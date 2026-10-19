@@ -1,0 +1,23 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm17u_wm_classic_19_name",
+    "id": "1747019",
+    "description": "classic_3",
+    "reminder": "@wm17u_wm_common_reminder_v2",
+    "reminder_not_support_mode": [
+      "multi",
+      "raw",
+      "doc",
+      "pano",
+      "mimoji"
+    ],
+    "priority": 19,
+    "limitation": {},
+    "exclude_cases": [
+      "livephoto"
+    ],
+    "position": "in",
+    "show_in_menu": true
+  }
+}

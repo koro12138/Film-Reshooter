@@ -1,0 +1,22 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm17u_wm_film_15_name",
+    "id": "1747015",
+    "description": "film_4",
+    "priority": 15,
+    "reminder_not_support_mode": [
+      "multi",
+      "raw",
+      "200m",
+      "doc",
+      "pano",
+      "mimoji"
+    ],
+    "exclude_cases": [
+      "200m"
+    ],
+    "limitation": {},
+    "show_in_menu": true
+  }
+}

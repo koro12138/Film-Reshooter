@@ -1,0 +1,29 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm17u_wm_leica_5_name",
+    "id": "1747005",
+    "description": "leica_5",
+    "reminder_not_support_mode": [
+      "front",
+      "multi",
+      "raw",
+      "200m",
+      "doc",
+      "pano",
+      "mimoji"
+    ],
+    "limitation": {},
+    "priority": 5,
+    "exclude_cases": [
+      "front",
+      "multi",
+      "cosmetic",
+      "doc",
+      "pano",
+      "mimoji",
+      "200m"
+    ],
+    "show_in_menu": true
+  }
+}

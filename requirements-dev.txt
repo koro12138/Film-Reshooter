@@ -1,0 +1,2 @@
+# Install after the platform runtime requirements.
+PyInstaller==6.12.0

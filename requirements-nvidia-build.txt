@@ -1,0 +1,3 @@
+# Only needed to regenerate the optional batch ONNX/PTX resources.
+# Supply NVRTC via CAMERALOOK_NVRTC separately; no PyTorch install is required.
+onnx==1.23.2

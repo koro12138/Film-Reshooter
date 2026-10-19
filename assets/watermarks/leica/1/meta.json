@@ -1,0 +1,48 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_leica_1_name",
+    "id": "1",
+    "description": "leica_1",
+    "reminder_not_support_mode": [
+      "front",
+      "multi",
+      "raw",
+      "200m",
+      "doc",
+      "pano",
+      "mimoji"
+    ],
+    "show_in_menu": true,
+    "provider": "",
+    "limitation": {
+      "name_length_limitation": [
+        0,
+        17
+      ],
+      "validity": "2025-05-03T10:15:30 ~ 3025-05-25T12:15:30",
+      "ro.miui.build.region": [],
+      "system_properties": {
+        "ro.product.device": []
+      },
+      "device_type": [
+        "leica"
+      ]
+    },
+    "priority": 1,
+    "position": "out",
+    "exclude_cases": [
+      "front",
+      "multi",
+      "cosmetic",
+      "doc",
+      "pano",
+      "mimoji",
+      "200m"
+    ],
+    "include_cases": [
+      "polaroid",
+      "showexternal"
+    ]
+  }
+}

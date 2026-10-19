@@ -1,0 +1,21 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_live_moment",
+    "id": "1747999",
+    "description": "local_live_moment",
+    "reminder": "@wm_common_reminder_v2",
+    "reminder_not_support_mode": [],
+    "limitation": {},
+    "priority": -1,
+    "show_in_menu": true,
+    "position": "in",
+    "exclude_cases": [],
+    "include_cases": [
+      "raw",
+      "thirdparty",
+      "mimoji",
+      "showexternal"
+    ]
+  }
+}

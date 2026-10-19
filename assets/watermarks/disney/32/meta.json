@@ -1,0 +1,31 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_disney_32_name",
+    "id": "32",
+    "description": "disney_2",
+    "reminder": "@wm_common_reminder_v2",
+    "reminder_not_support_mode": [
+      "multi",
+      "doc",
+      "pano",
+      "mimoji",
+      "instant"
+    ],
+    "limitation": {
+      "system_properties": {
+        "ro.boot.product.theme_customize": "WestCoast3"
+      }
+    },
+    "priority": 2,
+    "show_in_menu": true,
+    "include_cases": [
+      "raw",
+      "thirdparty"
+    ],
+    "exclude_cases": [
+      "livephoto"
+    ],
+    "position": "in"
+  }
+}

@@ -1,0 +1,8 @@
+/* musl float sin/exp, with the explicit double FMA order of math_arm.elf.
+ * sin: Copyright (C) 1993 Sun Microsystems, Inc. All rights reserved.
+ * Developed at SunPro, a Sun Microsystems, Inc. business.
+ * Permission to use, copy, modify, and distribute this software is freely
+ * granted, provided that this notice is preserved.
+ * exp: Copyright (c) 2017-2018, Arm Limited. SPDX-License-Identifier: MIT.
+ * See the bundled third-party musl and m3-math-MIT notices.
+ */

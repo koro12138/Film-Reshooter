@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "name": "@wm_group_leica_name",
+    "preview": "img_setting_base.webp",
+    "priority": 20,
+    "group_type": "LEICA"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm_classic_20_name",
+    "id": "20",
+    "description": "classic_4",
+    "reminder_not_support_mode": [
+      "multi",
+      "raw",
+      "200m",
+      "doc",
+      "pano",
+      "mimoji",
+      "instant"
+    ],
+    "exclude_cases": [
+      "200m"
+    ],
+    "priority": 4,
+    "limitation": {
+      "name_length_limitation": [
+        0,
+        17
+      ],
+      "exclude_device_type": [
+        "poco"
+      ],
+      "custom_not_support": {
+        "ro.miui.build.region": [
+          "global"
+        ],
+        "ro.boot.product.theme_customize": [
+          "lcc"
+        ],
+        "ro.product.device": [],
+        "device_type": []
+      }
+    }
+  }
+}

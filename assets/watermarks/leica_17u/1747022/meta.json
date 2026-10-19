@@ -1,0 +1,22 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm17u_wm_classic_22_name",
+    "id": "1747022",
+    "description": "classic_6",
+    "reminder_not_support_mode": [
+      "multi",
+      "raw",
+      "200m",
+      "doc",
+      "pano",
+      "mimoji"
+    ],
+    "exclude_cases": [
+      "200m"
+    ],
+    "priority": 22,
+    "limitation": {},
+    "show_in_menu": true
+  }
+}

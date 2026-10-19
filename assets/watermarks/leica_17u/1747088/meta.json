@@ -1,0 +1,31 @@
+{
+  "version": 1.0,
+  "metadata": {
+    "name": "@wm17u_wm_leica_88",
+    "id": "1747088",
+    "description": "leica_88",
+    "reminder_not_support_mode": [
+      "front",
+      "multi",
+      "raw",
+      "200m",
+      "doc",
+      "pano",
+      "mimoji"
+    ],
+    "show_in_menu": true,
+    "show_location_type": "complete_address",
+    "limitation": {},
+    "position": "with",
+    "priority": 88,
+    "exclude_cases": [
+      "front",
+      "multi",
+      "cosmetic",
+      "doc",
+      "pano",
+      "mimoji",
+      "200m"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "low": {
+    "bytes": 15709687,
+    "max_abs_vs_torch": 1.6689300537109375e-06,
+    "seconds": 3.67,
+    "opset": 17,
+    "ir": 8
+  },
+  "high": {
+    "bytes": 15636032,
+    "max_abs_vs_torch": 2.0265579223632812e-06,
+    "seconds": 3.81,
+    "opset": 17,
+    "ir": 8
+  },
+  "colorfix": {
+    "bytes": 31091662,
+    "max_abs_vs_torch": 9.834766387939453e-07,
+    "seconds": 1.02,
+    "opset": 17,
+    "ir": 8
+  }
+}
